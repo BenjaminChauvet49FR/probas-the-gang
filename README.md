@@ -74,6 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # Pense-bête :
-npm init (je crois)
+npm init (je crois) ou npm install react
 npm run start
 npm install react-router-dom (transformer en single page application)
