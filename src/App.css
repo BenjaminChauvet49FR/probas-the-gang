@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* =================================================================================================== */
+
+.carte {
+	border-style:solid;
+	border-width:2px;
+	width:3em;
+}
+
+.couleur0  {
+	border-color:#ff0000;
+	background-color:#ff8888;
+	color:#ff0000;
+}
+
+.couleur1  {
+	border-color:#000000;
+	background-color:#888888;
+	color:#000000;
+}
+
+.couleur2  {
+	border-color:#ff8800;
+	background-color:#ffcc88;
+	color:#ff8800;
+}
+
+.couleur3  {
+	border-color:#0000ff;
+	background-color:#8888ff;
+	color:#0000ff;
+}
+
+.listeCartes {
+	display:flex;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+table, th, tr, td {
+  border-style:solid;
+}
