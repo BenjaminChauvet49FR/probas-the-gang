@@ -2,6 +2,8 @@ export const C = 0;
 export const P = 1;
 export const K = 2;
 export const T = 3;
+export const MASTER_CHAINE_VALEURS = "  23456789dVDRA";
+export const MASTER_CHAINE_COULEURS = "CPKT";
 
 export const MAIN = {
 	CARTE_HAUTE : 0,
@@ -41,6 +43,9 @@ export function valeurCode(pVal) {
 	return vCode;
 }
 
+export function genererIDCarte(pVal, pCouleur) {
+	return pVal*4 + pCouleur - 8; 
+}
 
 // Etant donné le nombre d'occurences des cartes de 2 à 14 qui nous intéresse, un nombre n de cartes à chercher, on suppose que les cartes retournées (en excluant une valeur, correspondant à un carré/un brelan/une paire) sont V1 V2 ... Vn, renvoie le nombre (15**(n-1)*(V1) +  15**(n-2)*(V2) + ... + 15*V(n-1) + Vn
 function valorisationSansPaires(pNombreOccurences, pCartesVoulues, pValeurExclue) {
