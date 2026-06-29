@@ -6,19 +6,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import './App.css';
-import TousCombos from "./pages/TousCombos.jsx";
+
+import Header from "./components/Header.jsx";
+
+import TousCombos from "./pages/TousCombos/index.jsx";
+import Lobby from "./pages/Lobby/index.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-              <Router>
-              <Routes>
-                  <Route
-                    path="tousCombos"
-                    element={<TousCombos />}
-                  />
-              </Routes>
+              <Router basename="/probas-the-gang">
+                      <Header />
+
+	<Routes>
+
+
+	<Route path="/tousCombos" element={<TousCombos />}/>
+                        <Route path="/" element={<Lobby />} />
+
+	</Routes>
             </Router>
 
   </React.StrictMode>,

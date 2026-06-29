@@ -1,8 +1,8 @@
-import * as exploitationValeurMains from "../logique/exploitationValeurMains.jsx";
-import {Carte} from '../Card.jsx';
-import * as C from "../logique/constantesCartes.jsx";
-import * as valeurMain from "../logique/valeurMain.jsx";
-import SerieCartes from '../SerieCartes.jsx';
+import * as exploitationValeurMains from "../../logique/exploitationValeurMains.jsx";
+import {Carte} from '../../components/Card.jsx';
+import * as C from "../../logique/constantesCartes.jsx";
+import * as valeurMain from "../../logique/valeurMain.jsx";
+import SerieCartes from '../../SerieCartes.jsx';
 import { useEffect, useState } from "react";
 
 

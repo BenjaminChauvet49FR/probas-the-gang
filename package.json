@@ -2,6 +2,7 @@
   "name": "probas-the-gang",
   "version": "0.1.0",
   "private": true,
+  "homepage": "probas-the-gang",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -12,6 +13,7 @@
     "react-router-dom": "^7.18.0",
     "react-scripts": "5.0.1",
     "Router": "^2.1.0",
+    "styled-components": "^6.4.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

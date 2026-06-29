@@ -1,4 +1,4 @@
-import * as valeurMain from "./logique/valeurMain.jsx"
+import * as valeurMain from "../logique/valeurMain.jsx"
 
 export function Carte({idCarte}) {
 	const valeur = valeurMain.idVersNumero(idCarte);
